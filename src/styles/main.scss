@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  font: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --clr-black: 0deg 0% 0%;
+  --clr-blue: 216deg 95% 58%;
+  --clr-dark-navy: 218deg 44% 22%;
+  --clr-grey: 220deg 15% 55%;
+  --clr-light-grey: 212deg 45% 89%;
+  --clr-shaded-blue: 216deg 100% 61%;
+  --clr-white: 0deg 0% 100%;
+  --font: "Outfit", sans-serif;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  color-scheme: light;
+  color: black;
+  font-family: var(--font);
+  font-size: 10px;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+}
