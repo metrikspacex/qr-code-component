@@ -5,6 +5,6 @@ import Home from "./pages/home";
 export default createBrowserRouter([
   {
     element: <Home />,
-    path: "/react-fem-qr-code-component/",
+    path: "/qr-code-component/",
   },
 ]);
