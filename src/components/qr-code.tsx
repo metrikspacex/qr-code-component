@@ -9,7 +9,7 @@ export default function QrCode({ className }: QrCodeProps) {
   return (
     <div className={clsx(styles.root, className)}>
       <img
-        alt=""
+        alt="qr-code image"
         src={QRImage}
       />
       <div>
